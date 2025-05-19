@@ -60,6 +60,22 @@ Bot otomatis untuk menyelesaikan semua task Pharos Testnet — termasuk check-in
 
 ### 1. Install Python 3.10+
 
+#### Install Python 3 & Pip
+
+> Ubuntu biasanya sudah terpasang Python 3 secara default. Untuk memastikan:
+
+```
+sudo apt update
+sudo apt install python3 python3-pip python3-venv -y
+```
+```
+python3 --version  # Contoh output: Python 3.10.12
+pip3 --version     # Cek apakah pip terinstall
+```
+
+
+   
+
 
 > Jangan lupa centang opsi `Add Python to PATH` saat install!
 
@@ -75,13 +91,19 @@ screen -S PHAROS-AUTO-SOUIY
 git clone https://github.com/Souiy/PHAROS-AUTO-SOUIY.git
 ```
 ```
+nano privateKeys.txt
+```
+```
 cd PHAROS-AUTO-SOUIY
 ```
 ```
 pip install web3 eth-account requests colorama rich
 ```
 ```
-python bot.py
+nano privateKeys.txt
+```
+```
+python3 bot.py
 ```
 
 🧠 CATATAN
