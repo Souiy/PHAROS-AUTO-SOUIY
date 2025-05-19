@@ -91,9 +91,6 @@ screen -S PHAROS-AUTO-SOUIY
 git clone https://github.com/Souiy/PHAROS-AUTO-SOUIY.git
 ```
 ```
-nano privateKeys.txt
-```
-```
 cd PHAROS-AUTO-SOUIY
 ```
 ```
