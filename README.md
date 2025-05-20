@@ -69,6 +69,12 @@ sudo apt update
 sudo apt install python3 python3-pip python3-venv -y
 ```
 ```
+
+python3 -m venv venv # Create a virtual environment
+source venv/bin/activate # Activate it
+pip install web3 eth-account requests colorama rich # Now install your packages
+```
+```
 python3 --version  # Contoh output: Python 3.10.12
 pip3 --version     # Cek apakah pip terinstall
 ```
